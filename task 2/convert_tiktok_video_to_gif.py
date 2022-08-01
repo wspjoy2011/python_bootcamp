@@ -30,6 +30,14 @@ def check_argv():
         exit()
 
 
+if not os.path.isdir('video'):
+    os.mkdir('video')
+    print('Folder created - video')
+
+if not os.path.isdir('gif'):
+    os.mkdir('gif')
+    print('Folder created - gif')
+
 check_argv()
 clear_folder('./gif')
 clear_folder('./video')
