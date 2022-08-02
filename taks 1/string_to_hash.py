@@ -15,6 +15,6 @@ def convert_string_to_hash(data: str) -> str:
 
 
 if __name__ == '__main__':
-    s_data: str = ''
+    s_data: str = 'Python Bootcamp'
     result = convert_string_to_hash(s_data)
     print(result)
